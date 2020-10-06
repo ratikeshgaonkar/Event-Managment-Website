@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+        <div class="logo-container">
+            <img src="./img/logo.svg" alt="logo" />
+            <h4 class="logo">EvenzOne</h4>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="home.html">Home</a></li>
+                <li><a class="nav-link" href="services.html">Services</a></li>
+                <li><a class="nav-link" href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </div>
+    </header>
+
+    <div class="gallery-section">
+      <div class="inner-width">
+        <h1>Gallery</h1>
+        <div class="border"></div>
+        <div class="gallery">
+
+          <a href="img/pexels-asad-photo-maldives-169196.jpg" class="image">
+            <img src="img/pexels-asad-photo-maldives-169192.jpg" alt="">
+          </a>
+
+          <a href="img/pexels-matheus-bertelli-2608517.jpg" class="image">
+            <img src="img/pexels-matheus-bertelli-2608517.jpg" alt="">
+          </a>
+
+          <a href="img/pexels-thibault-trillet-167491.jpg" class="image">
+            <img src="img/pexels-thibault-trillet-167491.jpg" alt="">
+          </a>
+
+          <a href="img/pexels-icsa-1708936 (1).jpg" class="image">
+            <img src="img/pexels-icsa-1708936 (1).jpg" alt="">
+          </a>
+
+          <a href="img/pexels-andrea-piacquadio-787961.jpg" class="image">
+            <img src="img/pexels-andrea-piacquadio-787961.jpg" alt="">
+          </a>
+
+          <a href="img/pexels-pixabay-50675.jpg" class="image">
+            <img src="img/pexels-pixabay-50675.jpg" alt="">
+          </a>
+
+          <a href="img/pexels-abby-kihano-431722.jpg" class="image">
+            <img src="img/pexels-abby-kihano-431722.jpg" alt="">
+          </a>
+
+          <a href="img/pexels-marcin-dampc-1684187.jpg" class="image">
+            <img src="img/pexels-marcin-dampc-1684187.jpg" alt="">
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+  <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled: true
+      }
+    });
+  </script>
+  <img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+  <img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
+  <img class="small-circle" src="./img/small-eclipse.svg" alt="" />
+
+  </body>
+</html>
